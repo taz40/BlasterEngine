@@ -3,6 +3,7 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 #include <iostream>
+#include "../input/Input.h"
 
 namespace BlasterEngine {
 	namespace Graphics {
@@ -17,6 +18,7 @@ namespace BlasterEngine {
 			bool closed() const;
 			void update();
 			void clear();
+			void close();
 			inline int getWidth() const { return m_width; };
 			inline int getHeight() const { return m_height;  };
 		private:

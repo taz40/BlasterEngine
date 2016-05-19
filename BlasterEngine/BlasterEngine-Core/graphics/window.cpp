@@ -44,6 +44,9 @@ namespace BlasterEngine {
 			glfwSwapInterval(0);
 
 			glfwSetWindowSizeCallback(m_window, windowResize);
+			glfwSetCursorPosCallback(m_window, Input::Input::onCursorEvent);
+			glfwSetKeyCallback(m_window, Input::Input::onKeyEvent);
+			glfwSetMouseButtonCallback(m_window, Input::Input::onMouseButtonEvent);
 
 			cout << "Vendor: " << glGetString(GL_VENDOR) << endl << "Renderer: " << glGetString(GL_RENDERER) << endl << "Version: " << glGetString(GL_VERSION) << endl;
 			glfwSetWindowUserPointer(m_window, this);
@@ -64,6 +67,9 @@ namespace BlasterEngine {
 			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		}
 
+		void Window::close() {
+			glfwSetWindowShouldClose(m_window, GL_TRUE);
+		}
 
 	}
 }

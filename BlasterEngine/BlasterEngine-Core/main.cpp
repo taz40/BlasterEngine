@@ -28,6 +28,11 @@ int main() {
 		glDrawArrays(GL_ARRAY_BUFFER, 0, 6);
 
 #endif
+
+		if (Input::Input::getKey(GLFW_KEY_ESCAPE)) {
+			window.close();
+		}
+
 		window.update();
 	}
 
