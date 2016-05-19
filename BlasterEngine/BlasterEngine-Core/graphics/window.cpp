@@ -48,6 +48,11 @@ namespace BlasterEngine {
 			cout << "Vendor: " << glGetString(GL_VENDOR) << endl << "Renderer: " << glGetString(GL_RENDERER) << endl << "Version: " << glGetString(GL_VERSION) << endl;
 			glfwSetWindowUserPointer(m_window, this);
 
+			if (glewInit() != GLEW_OK) {
+				cout << "Failed to init glew." << endl;
+				return false;
+			}
+
 			return true;
 		}
 

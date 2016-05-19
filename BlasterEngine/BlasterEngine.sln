@@ -5,6 +5,19 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlasterEngine-Core", "BlasterEngine-Core\BlasterEngine-Core.vcxproj", "{54E0121C-78E5-4867-9FFF-10E6804488E9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8B8EB9DA-3759-43C9-9135-12CE513DA444}"
+	ProjectSection(SolutionItems) = preProject
+		Dependencies\glew\include\GL\glew.h = Dependencies\glew\include\GL\glew.h
+		Dependencies\glew\lib\Release\Win32\glew32s.lib = Dependencies\glew\lib\Release\Win32\glew32s.lib
+		Dependencies\glfw\lib-vc2015\glfw3.dll = Dependencies\glfw\lib-vc2015\glfw3.dll
+		Dependencies\glfw\include\GLFW\glfw3.h = Dependencies\glfw\include\GLFW\glfw3.h
+		Dependencies\glfw\lib-vc2015\glfw3.lib = Dependencies\glfw\lib-vc2015\glfw3.lib
+		Dependencies\glfw\lib-vc2015\glfw3dll.lib = Dependencies\glfw\lib-vc2015\glfw3dll.lib
+		Dependencies\glfw\include\GLFW\glfw3native.h = Dependencies\glfw\include\GLFW\glfw3native.h
+		Dependencies\glew\include\GL\glxew.h = Dependencies\glew\include\GL\glxew.h
+		Dependencies\glew\include\GL\wglew.h = Dependencies\glew\include\GL\wglew.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
