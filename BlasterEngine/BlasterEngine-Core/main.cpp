@@ -12,7 +12,7 @@ int main() {
 	glClearColor(.2f, .3f, .8f, 1.0f);
 	GLuint vao;
 	glGenVertexArrays(1, &vao);
-	glBindVertexArray(vao);
+	glBindVertexArray(vao); 
 
 	while (!window.closed()) {
 		window.clear();
