@@ -130,10 +130,12 @@
     <ClCompile Include="input\Input.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="graphics\window.cpp" />
+    <ClCompile Include="maths\Vec2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="graphics\window.h" />
     <ClInclude Include="input\Input.h" />
+    <ClInclude Include="maths\Vec2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

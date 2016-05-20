@@ -27,12 +27,18 @@
     <ClCompile Include="input\Input.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="maths\Vec2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="graphics\window.h">
       <Filter>Source Files\graphics</Filter>
     </ClInclude>
     <ClInclude Include="input\Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="maths\Vec2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

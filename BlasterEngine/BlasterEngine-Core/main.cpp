@@ -1,9 +1,12 @@
 #include "./graphics/window.h"
 
+#include "./maths/Vec2.h"
+
 
 using namespace std;
 using namespace BlasterEngine;
 using namespace Graphics;
+using namespace maths;
 
 int main() {
 	
